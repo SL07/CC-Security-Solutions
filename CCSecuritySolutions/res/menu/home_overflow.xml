@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ccsecuritysolutions.Home" >
+   
+    <item
+        android:id="@+id/action_test1"
+        android:title="@string/test1"
+        android:showAsAction="always"/>
+    
+    <item
+        android:id="@+id/action_test2"
+        android:title="@string/test2"
+        android:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_test3"
+        android:title="@string/test3"
+        android:showAsAction="always"/>
+
+</menu>

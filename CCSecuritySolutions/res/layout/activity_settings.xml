@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ccsecuritysolutions.Settings"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/change_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/change_name" />
+
+        <Button
+            android:id="@+id/change_alarm_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/change_alarm_password" />
+
+        <Button
+            android:id="@+id/edit_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/change_email" />
+
+    </LinearLayout>
+
+</FrameLayout>
+

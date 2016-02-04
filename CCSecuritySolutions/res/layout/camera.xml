@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="horizontal" >
+ 
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="@string/enter_password" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:ems="10"
+            android:gravity="center_vertical|center_horizontal"
+            android:hint="****"
+            android:inputType="textPassword" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/disarm_device"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="takePicture"
+            android:text="Disarm Device" />
+
+    </LinearLayout>
+    
+  <FrameLayout
+      android:id="@+id/camera_preview"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" >
+  </FrameLayout>
+    
+	
+
+</LinearLayout>

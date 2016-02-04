@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CCSecuritySolutions</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="change_alarm_password">Change My Alarm Password</string>
+    <string name="change_name">Change My Name</string>
+    <string name="change_email">Change My Email</string>
+    <string name="send_picture">Send Picture</string>
+    <string name="send_audio">Send Audio</string>
+    <string name="test1">test</string>
+    <string name="test2">test</string>
+    <string name="test3">test</string>
+    <string name="title_activity_arm_device">Arm System</string>
+    <string name="enter_name">What is your Name?</string>
+    <string name="enter_password">Please Enter Your Password:</string>
+    <string name="enter_new_password">Please Enter A New Password:</string>
+    <string name="enter_new_password_again">Please Repeat Your New Password:</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="title_activity_camera_test">CameraTest</string>
+    <string name="title_activity_change_password">ChangePassword</string>
+    <string name="title_activity_new_account">Create a New Account</string>
+    <string name="save">Save</string>
+    
+    <string name="Capture">Capture</string>
+   	<string name="cancel">Cancel</string>
+   	<string name="open_camera">Open Camera</string>
+    
+    <string name="hello_newb">Hey There! It appears that you are new to CCSecuritySolutions. Please set up an account to begin. Your email credentials will only be used to notify yourself.</string>
+    <string name="what_email">What is your email?</string>
+    <string name="what_email_pass">Password to your email?</string>
+    <string name="title_activity_change_name">ChangeName</string>
+    <string name="title_activity_change_email">ChangeEmail</string>
+    <string name="enter_email">Please enter your new email:</string>
+    <string name="enter_email_again">Please enter your new email again:</string>
+    <string name="enter_email_pass">Enter your new email password:</string>
+    <string name="enter_email_pass_again">Enter your new email password again:</string>
+
+</resources>
